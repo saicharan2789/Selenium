@@ -28,7 +28,7 @@ public class StepDefinition {
 
 	@Given("the user in the main page")
 	public void the_user_in_the_main_page() throws Throwable{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\srini\\Downloads\\Ranjani Related\\AnsDigitalInterview1.zip_expanded\\AnsDigitalInterview\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\downloads\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://the-internet.herokuapp.com/");
 	}
